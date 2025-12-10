@@ -1,0 +1,9 @@
+backend/.venv/
+backend/.env
+*.pyc
+backend/uploads/
+frontend/.next/
+frontend/.next/cache/
+frontend/node_modules/
+backend/data.db
+frontend/.env
