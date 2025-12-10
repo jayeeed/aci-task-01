@@ -49,7 +49,7 @@ def ask_gemini(question: str, image_b64: str = None):
             contents = [question]
 
         response_text = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=contents,
             config=GenerateContentConfig(
                 system_instruction=system_instruction,

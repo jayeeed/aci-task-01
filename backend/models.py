@@ -43,7 +43,7 @@ class Image(Base):
     owner_id = Column(Integer, ForeignKey("users.id"))
 
     owner = relationship("User", back_populates="images")
-    image = relationship("Image")
+
 
 class Chat(Base):
     __tablename__ = "chats"
